@@ -4,23 +4,30 @@ body
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background: #777;
-    width: 960px;
     font-size: 18px;
+    
+}
+.wrapper
+{
+    width: 960px;
+    margin: auto;
 }
 
-
-.header {
-    
+.header, .nav, .footer {
     padding: 20px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .content
 {
    display: flex;
+   margin-bottom: 10px
 }
 .section, .aside
 {
    flex: 50%;
+   text-align: center;
+padding:10px 10px;
 }
 .nav, .footer, .section, .header, .aside
 {
@@ -29,16 +36,25 @@ body
 .article
 {
     color: #ebebeb;
-    background: #777; 
+    background: #777;
+    text-align: center;
+    padding:10px;
+    margin-top:30px;
+
 }
 .article > h1, .article > p
 {
     color: #777; 
     background: #ebebeb;
+    padding:25px;
+    
+
+}
+.article > h1
+{
+    font-size:18px;
+}
+.aside {
+    margin-left:10px;
 }
 /* Helper to build layout DELETE ME*/
-
-div 
-{ 
-    border:1px black dotted;
-}
