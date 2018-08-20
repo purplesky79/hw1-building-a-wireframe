@@ -1,0 +1,44 @@
+/*Style the header*/
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+
+.header {
+    
+    padding: 20px;
+    text-align: center;
+}
+.content
+{
+   display: flex;
+}
+.section, .aside
+{
+   flex: 50%;
+}
+.nav, .footer, .section, .header, .aside
+{
+    background: #ebebeb;
+}
+.article
+{
+    color: #ebebeb;
+    background: #777; 
+}
+.article > h1, .article > p
+{
+    color: #777; 
+    background: #ebebeb;
+}
+/* Helper to build layout DELETE ME*/
+
+div 
+{ 
+    border:1px black dotted;
+}
